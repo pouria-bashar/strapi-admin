@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_favorite_sports_favorite_sports",
+  "info": {
+    "displayName": "Favorite Sports",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "SportPicker": {
+      "type": "customField",
+      "customField": "plugin::fav-sports.sports"
+    }
+  }
+}
