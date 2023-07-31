@@ -20,23 +20,13 @@
       "type": "dynamiczone",
       "components": [
         "hero.hero",
-        "footer.footer"
+        "footer-elements.footer"
       ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
-    },
-    "SportFavs": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "favorite-sports.favorite-sports"
     },
     "ABCD": {
       "pluginOptions": {
