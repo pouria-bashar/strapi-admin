@@ -4,8 +4,7 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "Home Page",
-    "description": ""
+    "displayName": "home-page"
   },
   "options": {
     "draftAndPublish": true
@@ -16,26 +15,17 @@
     }
   },
   "attributes": {
-    "blocks": {
-      "type": "dynamiczone",
-      "components": [
-        "hero.hero",
-        "footer-elements.footer"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "ABCD": {
+    "Blocks": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "customField",
-      "customField": "plugin::list-selector.mylist"
+      "type": "dynamiczone",
+      "components": [
+        "elements.hero",
+        "elements.coin"
+      ]
     }
   }
 }
