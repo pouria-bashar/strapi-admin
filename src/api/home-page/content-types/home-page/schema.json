@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "home-page"
+    "displayName": "home-page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,17 @@
         "elements.hero",
         "elements.coin"
       ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "elements.seo",
+      "required": true
     }
   }
 }

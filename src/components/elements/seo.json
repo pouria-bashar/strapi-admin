@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "twitter": {
+      "type": "string"
+    }
+  }
+}

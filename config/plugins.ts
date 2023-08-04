@@ -7,6 +7,6 @@ export default {
   "list-selector": {
     enabled: true,
     resolve: "./src/plugins/list-selector",
-  },
+  }
   // ...
 };
