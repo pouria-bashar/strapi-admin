@@ -2,17 +2,21 @@
   "collectionName": "components_elements_seos",
   "info": {
     "displayName": "SEO",
-    "icon": "bold"
+    "icon": "bold",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "OpenGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.open-graph-seo"
     },
     "title": {
-      "type": "richtext"
-    },
-    "twitter": {
       "type": "string"
     }
   }

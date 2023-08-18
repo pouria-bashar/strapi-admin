@@ -16,17 +16,14 @@
     }
   },
   "attributes": {
-    "Blocks": {
+    "uuid": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "dynamiczone",
-      "components": [
-        "elements.hero",
-        "elements.coin"
-      ]
+      "type": "customField",
+      "customField": "plugin::strapi-advanced-uuid.uuid"
     },
     "SEO": {
       "type": "component",
@@ -36,7 +33,20 @@
           "localized": true
         }
       },
-      "component": "elements.seo",
+      "component": "elements.seo"
+    },
+    "Blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "elements.hero",
+        "elements.banner",
+        "elements.hero-with-states"
+      ],
       "required": true
     }
   }

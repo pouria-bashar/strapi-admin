@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_fav_sports",
+  "info": {
+    "displayName": "FavSports",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Sport": {
+      "type": "customField",
+      "customField": "plugin::fav-sports.sports"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_hero_with_states",
+  "info": {
+    "displayName": "HeroWithStates"
+  },
+  "options": {},
+  "attributes": {
+    "LoggedIn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.hero"
+    },
+    "Annonymous": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.hero"
+    }
+  }
+}

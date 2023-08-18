@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_open_graph_seos",
+  "info": {
+    "displayName": "OpenGraphSEO",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "twitter": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "tiktok": {
+      "type": "string"
+    }
+  }
+}

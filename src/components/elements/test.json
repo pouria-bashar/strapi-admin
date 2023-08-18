@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_tests",
+  "info": {
+    "displayName": "test"
+  },
+  "options": {},
+  "attributes": {
+    "LoggedInHero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.hero"
+    },
+    "NotLoggedIn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.hero"
+    }
+  }
+}

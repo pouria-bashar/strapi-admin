@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "BannerImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
